@@ -11,3 +11,15 @@ import java.util.*
 fun <T> out(objects: T){
     println(objects.toString())
 }
+
+fun <T> outArray(objects: Array<T>){
+    for (i in 0 until objects.size){
+        out(objects.get(i))
+    }
+}
+
+fun outIntArray(objects: IntArray){
+    for (i in 0 until objects.size){
+        out(objects.get(i))
+    }
+}
