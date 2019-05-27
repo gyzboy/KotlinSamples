@@ -40,4 +40,10 @@ fun main(){
     out(result)
 
     out(arr11.fold(0,{total, next -> total + next }))//next初始值为0,然后total叠加
+
+    var map = mutableMapOf(1 to 100,2 to 200)
+    arr11.associateByTo(map,{it * it})
+    out(map)
+
+    out(arr11.contentEquals(arr11))
 }
