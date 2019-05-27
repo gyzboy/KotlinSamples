@@ -17,6 +17,7 @@ fun main(){
 
     var funcc= getMathFunc("cube")
     out(funcc(19))
+    //ttt
 
 }
 
