@@ -23,3 +23,7 @@ fun outIntArray(objects: IntArray){
         out(objects.get(i))
     }
 }
+
+fun outLine(){
+    out("---------------------------------")
+}
